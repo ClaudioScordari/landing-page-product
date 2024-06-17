@@ -12,9 +12,9 @@ export default {
 </script>
 
 <template>
-    <header class="poppins-regular">
-        <div>header</div>
-    </header>
+    <main class="montserrat">
+        <div>main</div>
+    </main>
 </template>
 
 <style lang="scss" scoped>
@@ -22,17 +22,6 @@ export default {
     @use '../assets/scss/partials/variables.scss' as *;
     @use '../assets/scss/partials/mixins.scss' as *;
 
-    // HEADER
-    header {
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.5;
-    }
+    // ...
 
-    // font-family
-    .poppins-regular {
-        font-family: "Poppins", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-    }
 </style>
