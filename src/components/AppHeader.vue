@@ -22,7 +22,7 @@ export default {
 </script>
 
 <template>
-    <header class="poppins-regular p-2 pb-4" style="border: 2px solid black;">
+    <header class="poppins-regular p-2 pb-4">
         <div class="row align-items-center">
             <!-- logo-duck -->
             <div class="col-lg-5 col-md-6 col-sm" id="duck-logo-col">

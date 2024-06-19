@@ -1,4 +1,6 @@
 <script>
+import Jumbotron from './Jumbotron.vue';
+
 export default {
     data() {
         return {
@@ -6,14 +8,17 @@ export default {
         };
     },
     methods: {
-        // ...
+        
+    },
+    components: {
+        Jumbotron
     }
 }
 </script>
 
 <template>
     <main class="montserrat">
-        <div>main</div>
+        <Jumbotron />
     </main>
 </template>
 
