@@ -44,6 +44,7 @@ export default {
     #jumbotron {
         height: 600px;
         display: flex;
+        padding-top: 90px;
     }
 
     .jumbo-left,

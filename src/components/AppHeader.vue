@@ -22,7 +22,7 @@ export default {
 </script>
 
 <template>
-    <header class="poppins-regular p-2 pb-4">
+    <header class="poppins-regular p-2 pb-4 bg-light w-100">
         <div class="row align-items-center">
             <!-- logo-duck -->
             <div class="col-lg-5 col-md-6 col-sm" id="duck-logo-col">
@@ -91,6 +91,7 @@ export default {
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
+        position: fixed;
 
         a {
             text-decoration: none;
@@ -111,6 +112,11 @@ export default {
 
     // mediaquery per controllare dispositivi sotto i 576px
     @media (max-width: 575px) {
+        header{
+            position: fixed;
+            width: 100%;
+        }
+
         #duck-logo-col {
             width: 50%;
         }
