@@ -1,6 +1,7 @@
 <script>
 import Jumbotron from './Jumbotron.vue';
 import Section_1 from './Section_1.vue';
+import Section_2 from './Section_2.vue';
 
 
 export default {
@@ -14,7 +15,8 @@ export default {
     },
     components: {
         Jumbotron,
-        Section_1
+        Section_1,
+        Section_2,
     }
 }
 </script>
@@ -24,6 +26,8 @@ export default {
         <Jumbotron />
 
         <Section_1 />
+
+        <Section_2 />
     </main>
 </template>
 
