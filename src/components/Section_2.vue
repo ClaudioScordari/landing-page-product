@@ -211,6 +211,11 @@
         display: none;
     }
 
+    #section-2 {
+        width: 80%;
+        margin: 0 auto;
+    }
+
     #section-2 h2 {
         margin: 70px 0;
     }
@@ -225,7 +230,7 @@
     }
 
     .fa-star {
-        color: yellow;
+        color: orange;
     }
 
     // mediaquery 
