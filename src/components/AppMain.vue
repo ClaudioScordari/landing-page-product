@@ -4,6 +4,7 @@ import Section_1 from './Section_1.vue';
 import Section_2 from './Section_2.vue';
 import Section_3 from './Section_3.vue';
 import FAQs from './FAQs.vue';
+import Guarantee from './Guarantee.vue';
 
 export default {
     data() {
@@ -20,6 +21,7 @@ export default {
         Section_2,
         Section_3,
         FAQs,
+        Guarantee
     }
 }
 </script>
@@ -35,6 +37,8 @@ export default {
         <Section_3 />
 
         <FAQs />
+
+        <Guarantee />
     </main>
 </template>
 

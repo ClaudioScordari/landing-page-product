@@ -26,11 +26,6 @@ export default {
             ]
         };
     },
-    methods:{
-        getImagePath: function(imgPath){
-            return new URL(imgPath, import.meta.url).href;
-        },
-    }
 }
 </script>
 
@@ -39,11 +34,11 @@ export default {
         <h2 class="fs-1 fw-bold text-center my-4">FAQs</h2>
 
         <div class="row">
-            <div class="col-md-6 col-sm-12">
+            <div class="col-lg-6 col-sm-12">
                 <img class="img-fluid" src="../assets/imgs/single-image2.png" alt="broken">
             </div>
 
-            <div class="col-md-6 col-sm-12 pt-3">
+            <div class="col-lg-6 col-sm-12 pt-3">
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item" v-for="faq in faqs">
                         <h2 class="accordion-header">
