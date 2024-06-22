@@ -31,7 +31,7 @@ export default {
 
 <template>
     <section id="section-3">
-        <div class="my-container">
+        <div class="my-container pt-3">
             <h2 class="fs-1 fw-bold">La collezione di paperelle</h2>
     
             <p class="my-5">Una paperella per ogni stile di programmazione</p>

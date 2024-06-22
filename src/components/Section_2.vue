@@ -214,10 +214,12 @@
     #section-2 {
         width: 80%;
         margin: 0 auto;
+        position: relative;
+        z-index: 0;
     }
 
     #section-2 h2 {
-        margin: 70px 0;
+        margin: 50px 0;
     }
 
     h2 {

@@ -3,6 +3,7 @@ import Jumbotron from './Jumbotron.vue';
 import Section_1 from './Section_1.vue';
 import Section_2 from './Section_2.vue';
 import Section_3 from './Section_3.vue';
+import FAQs from './FAQs.vue';
 
 export default {
     data() {
@@ -18,6 +19,7 @@ export default {
         Section_1,
         Section_2,
         Section_3,
+        FAQs,
     }
 }
 </script>
@@ -31,6 +33,8 @@ export default {
         <Section_2 />
 
         <Section_3 />
+
+        <FAQs />
     </main>
 </template>
 

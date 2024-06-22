@@ -92,6 +92,7 @@ export default {
         font-weight: 400;
         line-height: 1.5;
         position: fixed;
+        z-index: 1;
 
         a {
             text-decoration: none;
